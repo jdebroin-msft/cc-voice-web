@@ -1,0 +1,31 @@
+{
+  "name": "cc-voice-web",
+  "version": "0.0.1",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/communication-calling": "^1.17.1",
+    "@azure/communication-common": "^2.3.0",
+    "@azure/communication-identity": "^1.2.0"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1",
+    "process": "^0.11.10"
+  },
+  "description": "- https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/telephony/pstn-call?pivots=platform-web - https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/identity/access-tokens?tabs=windows&pivots=programming-language-javascript",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdebroin-msft/cc-voice-web"
+  },
+  "bugs": {
+    "url": "https://github.com/jdebroin-msft/cc-voice-web/issues"
+  },
+  "homepage": "https://github.com/jdebroin-msft/cc-voice-web"
+}
